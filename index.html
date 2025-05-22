@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>NC | CyberGuru</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/805b25550a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- Header Section -->
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/hoyoo.jpeg" class="logo"/>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#TechnicalSkills">Technical Skills</a></li>
+                    <li><a href="#AreaInterest">Areas Of Interest</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#Contact">Contact</a></li>
+                    <i class="fa-solid fa-square-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>CyberSecurity Enthusiast</p>
+                <h1><span>Neil Choeni</span><br/>Blockchain Developer, Certified Ethical Hacker & Backend Developer</h1>
+            </div>
+        </div>
+    </div>
+
+    <!-- About Section -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/og.jpg"/>
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I am a dedicated computer science student with a specialization in cybersecurity, BlockChain and Python programming, and I am actively pursuing a career in these evolving fields.
+                    My strong commitment to problem-solving and innovation motivates me to explore entrepreneurship, where I intend to combine my technical expertise with strategic business acumen to develop impactful solutions.
+                    Additionally, I seek to invest in and cultivate our own technology and business ventures that can contribute meaningfully to the industry.
+                    I am committed to continuous learning and professional growth and am eager to connect with industry professionals.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>BlockChain Developer</span><br/>Designing and developing blockchain architecture.</li>
+                            <li><span>Ethical Hacker</span><br/>Simulating cyberattacks to identify vulnerabilities.</li>
+                            <li><span>Backend Developer</span><br/>Creating server-side web applications.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Jan 2024 - Present</span><br/>Co-Founder & COO @BroCode_Zw.</li>
+                            <li><span>Jan 2024 - Dec 2024</span><br/>Backend Developer @Everyday Buzz Podcast</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2024 - Present</span><br/>BSc Honors in Computer Science at MSU Gweru.</li>
+                            <li><span>2022 - 2023</span><br/>A'Level at Fletcher High School</li>
+                            <li><span>2018 - 2022</span><br/>O'Level At Progress Centre College</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Technical Skills Section -->
+    <div id="TechnicalSkills">
+        <div class="container">
+            <h1 class="sub-title">Technical Skills</h1>
+            <div class="skills-list">
+                <div>
+                    <h2>PYTHON, JAVASCRIPT, PHP</h2>
+                </div>
+                <div>
+                    <h2>HTML, CSS, REACT</h2>
+                </div>
+                <div>
+                    <h2>KALI LINUX, NMAP, Wireshark</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Areas of Interest Section -->
+    <div id="AreaInterest">
+        <div class="container">
+            <h1 class="sub-title">Areas Of Interest</h1>
+            <div class="interest-list">
+                <div>
+                    <h2>BlockChain Technology</h2>
+                    <p>Blockchain is a secure, decentralized digital ledger...</p>
+                </div>
+                <div>
+                    <h2>CyberSecurity</h2>
+                    <p>Cybersecurity protects computers, networks, and data...</p>
+                </div>
+                <div>
+                    <h2>Backend Development</h2>
+                    <p>Backend development handles server-side logic...</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Projects Section -->
+    <div id="projects">
+        <div class="container">
+            <h1 class="sub-title">Projects</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png">
+                    <div class="layer">
+                        <h3>ZimboCoin Finance Solution</h3>
+                        <p>Decentralizing lending and borrowing.
+                           Decentralizing lending and borrowing involves using smart contracts on blockchain to enable peer-to-peer transactions that are transparent, immutable, and automatic.
+                           This setup allows users to track loans, access real-time market data, and operate without traditional intermediaries, creating a more open and trustless financial system.</p>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png">
+                    <div class="layer">
+                        <h3>Decentralized Supply Chain</h3>
+                        <p>A blockchain-based tracking system.
+                           A blockchain-based system with smart contracts tracking product events, immutable ledger storing data, QR codes linking physical products to digital records, user interfaces for stakeholders, and analytics for insights.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact Section -->
+    <div id="Contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>neilchoeni@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>+263771394554</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/Neil-Choeni"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.linkedin.com/in/neil-n-choeni"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.instagram.com/_ndiya._"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                    <a href="" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">SUBMIT</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright <i class="fa-solid fa-copyright"></i> Choeni Neil.</p>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script>
+        // Tab switching logic
+        function opentab(tabname) {
+            const tablinks = document.getElementsByClassName("tab-links");
+            const tabcontents = document.getElementsByClassName("tab-contents");
+            
+            for (let tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (let tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+        // Mobile menu toggle
+        const sidemenu = document.getElementById("sidemenu");
+        function openmenu() {
+            sidemenu.style.right = "0";
+            document.body.style.overflow = "hidden";
+        }
+        function closemenu() {
+            sidemenu.style.right = "-250px";
+            document.body.style.overflow = "auto";
+        }
+
+        // Form submission
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbx_YgV4wVahrhRIM-f__zBHdnVGTrLWpcRTFDlHOhxF2okJ-o6aci_cvUmSNfP52Lt-/exec';
+        const form = document.forms['submit-to-google-sheet'];
+        const msg = document.getElementById("msg")
+        form.addEventListener('submit', e => {
+            e.preventDefault();
+            fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response => alert('Message sent!'))
+                .catch(error => console.error('Error!', error.message));
+        });
+    </script>
+</body>
+</html>
